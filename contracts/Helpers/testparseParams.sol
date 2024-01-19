@@ -60,5 +60,61 @@ contract testSol {
         }
     }
 
-    
+    function splitString(string memory _base, string memory _value) internal pure returns (string[] memory) {
+        bytes memory base = bytes(_base);
+        bytes memory value = bytes(_value);
+
+        uint count = 1;
+        for (uint i = 0; i < base.length; i++) {
+            if (keccak256(abi.encodePacked(base[i])) == keccak256(abi.encodePacked(value))) {
+                count++;
+            }
+        }
+
+        string[] memory splitArr = new string[](count);
+        uint index = 0;
+        uint lastIndex = 0;
+        for (uint i = 0; i < base.length; i++) {
+            if (keccak256(abi.encodePacked(base[i])) == keccak256(abi.encodePacked(value))) {
+                bytes memory word = new bytes(i - lastIndex);
+                for (uint j = lastIndex; j < i; j++) {
+                    word[j - lastIndex] = base[j];
+                }
+                splitArr[index] = string(word);
+                lastIndex = i + 1; // skip the delimiter
+                index++;
+            }
+        }
+        bytes memory lastWord = new bytes(base.length - lastIndex);
+        for (uint j = lastIndex; j < base.length; j++) {
+            lastWord[j - lastIndex] = base[j];
+        }
+        splitArr[index] = string(lastWord);
+
+        return splitArr;
+    }
+
+    // function parseAddress(string memory _a) internal pure returns (address _parsedAddress) {
+    //     bytes memory tmp = bytes(_a);
+    //     uint160 iaddr = 0;
+    //     uint160 b1;
+    //     uint160 b2;
+    //     for (uint i = 2; i < 2 + 2 * 20; i += 2) {
+    //         iaddr *= 256;
+    //         b1 = uint160(uint8(tmp[i]));
+    //         b2 = uint160(uint8(tmp[i + 1]));
+    //         if ((b1 >= 97) && (b1 <= 102)) {
+    //             b1 -= 87;
+    //         } else if ((b1 >= 48) && (b1 <= 57)) {
+    //             b1 -= 48;
+    //         }
+    //         if ((b2 >= 97) && (b2 <= 102)) {
+    //             b2 -= 87;
+    //         } else if ((b2 >= 48) && (b2 <= 57)) {
+    //             b2 -= 48;
+    //         }
+    //         iaddr += (b1 * 16 + b2);
+    //     }
+    //     return address(iaddr);
+    // }
 }
