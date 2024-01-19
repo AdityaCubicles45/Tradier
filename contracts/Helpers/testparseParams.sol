@@ -47,5 +47,18 @@ contract testSol {
         return swapParams;
     }
 
+    function stringToUint(string memory s) internal pure returns (uint256 result) {
+        bytes memory b = bytes(s);
+        uint256 i;
+        result = 0;
+        for (i = 0; i < b.length; i++) {
+            uint8 c = uint8(b[i]);
+            if (c >= 48 && c <= 57) {
+                result = result * 10 + (c - 48);
+                require(result >= (c - 48), "Overflow occurred"); // Check for overflow
+            }
+        }
+    }
+
     
 }
