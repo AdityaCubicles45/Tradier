@@ -68,3 +68,72 @@ letter-spacing: -0.03rem;
 color: ${COLORS.Black600};
 font-family: "Uncut Sans Regular";
 `
+export const BotCardFeeRate = styled.span`
+font-size: ${SIZING.px12};
+letter-spacing: 0rem;
+color: ${COLORS.Black400};
+font-family: "Uncut Sans Regular";
+`
+export const BotCreationWorkspaceInputLabel = styled.label`
+font-size: ${SIZING.px14};
+letter-spacing: -0.0175rem;
+color: ${COLORS.Black500};
+font-family: "Uncut Sans Medium";
+`
+export const BotCreationWorkspaceTagItem = styled.span`
+font-size: ${SIZING.px16};
+letter-spacing: -0.035rem;
+color: ${COLORS.Black100};
+font-family: "Uncut Sans Medium";
+`
+export const BotCreationWorkspaceScriptConfigurationLabel = styled.span`
+text-align: center;
+font-size: ${SIZING.px14};
+letter-spacing: -0.0175rem;
+color: ${COLORS.Black600};
+font-family: "Uncut Sans Regular";
+`
+export const BotCreationWorkspaceUnderlinedSpan = styled.span`
+font-size: ${SIZING.px14};
+letter-spacing: -0.0175rem;
+color: ${COLORS.Black600};
+text-decoration: underline;
+cursor: pointer;
+`
+export const BotCreationWorkspaceDragAndDropYourScriptSpan = styled.span`
+font-size: ${SIZING.px24};
+letter-spacing: -0.06rem;
+color: ${COLORS.Black700};
+font-family: "Uncut Sans Medium";
+`
+export const BotCreationWorkspaceAffirmationSpan = styled.span`
+font-size: ${SIZING.px24};
+letter-spacing: -0.06rem;
+color: ${COLORS.Black100};
+font-family: "Uncut Sans Medium";
+`
+export const BotCreationWorkspaceOrSpan = styled.span`
+margin-top: ${SIZING.px32};
+font-size: ${SIZING.px16};
+letter-spacing: -0.04rem;
+color: ${COLORS.Black800};
+font-family: "Uncut Sans Medium";
+`
+export const BotCreationWorkspaceFileNameSpan = styled.span`
+font-size: ${SIZING.px24};
+letter-spacing: -0.06rem;
+color: ${COLORS.DartmouthGreen600};
+font-family: "Uncut Sans Semibold";
+`
+export const ChatTopBarSpan = styled.span`
+font-size: ${SIZING.px16};
+letter-spacing: -0.04rem;
+color: ${COLORS.DartmouthGreen600};
+font-family: "Uncut Sans Medium";
+`
+export const ChatBottomColumnSmall = styled.small`
+font-size: ${SIZING.px12};
+letter-spacing: -0.03rem;
+color: ${COLORS.Black700};
+font-family: "Uncut Sans Regular";
+`
