@@ -42,7 +42,7 @@ const Documentation = () => {
                 <MainHeader>Creating a Script & Bot Full Documentation</MainHeader>
                 <Divider />
  
-                <SectionHeader id='1'>Proccess Overview</SectionHeader>
+                <SectionHeader id='1'>Process Overview</SectionHeader>
                 <Pargraph>In this documentation we will take you a step by step on how to create your own
                     decentralized transparent crypto trading bot NFT. The proccess is pretty straightforward,
                     the NFT has it{"'"}s own wallet and the wallet has 3 main functionalities, invest, withdraw, 
