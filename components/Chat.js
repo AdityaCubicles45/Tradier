@@ -51,6 +51,8 @@ const Chat = () => {
             setShowInitialScreen(false);
             setShowLoader(true)
             userMessageRef.current.value = "";
+
+            
             const response = await fetch('/api/askDroidvisor', {
               method: 'POST',
               headers: {
@@ -58,13 +60,25 @@ const Chat = () => {
               },
               body: JSON.stringify({ prompt }),
             });
+            console.log("handler10")
+            console.log(response) // added by himan
             if (!response.ok) {
               throw new Error(`Error: ${response.status}`);
             }        
+            console.log("handler11")
+
             const data = await response.json();
+            console.log("handler12")
+
             setShowLoader(false)
+            console.log("handler13")
+
             setMessages([...messages, { user: prompt, assistant: data.content }]);
+            console.log("handler14")
+
             setShowChatContainer(true);
+            console.log("handler15")
+
           } catch (err) {
             console.log('Error:', err);
             return;
