@@ -17,6 +17,7 @@ const LeftBar = ({selected}) => {
 
     function goToMarketPlace() {
         router.push("/marketplace")
+        
     }
 
     function goToMyPortfolio() {
