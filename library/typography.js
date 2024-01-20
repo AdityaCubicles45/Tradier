@@ -137,3 +137,105 @@ letter-spacing: -0.03rem;
 color: ${COLORS.Black700};
 font-family: "Uncut Sans Regular";
 `
+export const ChatInitialScreenHeader = styled.span`
+font-size: ${SIZING.px24};
+letter-spacing: -0.06rem;
+color: ${COLORS.Black400};
+font-family: "Uncut Sans Medium";
+`
+export const ChatGridNormalSpan = styled.span`
+font-size: ${SIZING.px12};
+letter-spacing: -0.03rem;
+color: ${COLORS.Black600};
+font-family: "Uncut Sans Regular";
+`
+export const ChatGridBoldSpan = styled.span`
+font-size: ${SIZING.px12};
+letter-spacing: -0.03rem;
+color: ${COLORS.Black400};
+font-family: "Uncut Sans Medium";
+`
+export const ChatMessageText = styled.div`
+max-width: ${SIZING.px416};
+line-height: 130%;
+letter-spacing: 0.01rem;
+font-family: "Uncut Sans Regular";
+`
+export const MyPortfolioChartCurrentBalanceSpan = styled.span`
+font-size: ${SIZING.px16};
+letter-spacing: -0.04rem;
+color: ${COLORS.Black700};
+font-family: "Uncut Sans Semibold";
+`
+export const MyPortfolioChartCurrentBalanceNumber = styled.span`
+font-size: ${SIZING.px48};
+color: ${COLORS.StandardWhiteDefault};
+font-family: "Uncut Sans Bold";
+`
+export const MyPortfolioChartDollarSignSpan = styled.span`
+font-size: ${SIZING.px48};
+color: ${COLORS.StandardWhiteDefault};
+font-family: "Uncut Sans Semibold";
+`
+export const MyPortfolioChartUnselectedToggleSpan = styled.span`
+font-size: ${SIZING.px12};
+letter-spacing: -0.015rem;
+color: ${COLORS.Black400};
+font-family: "Uncut Sans Medium";
+`
+export const MyPortfolioChartSelectedToggleSpan = styled.span`
+font-size: ${SIZING.px12};
+letter-spacing: -0.015rem;
+color: ${COLORS.Black100};
+font-family: "Uncut Sans Medium";
+`
+// export const ModalTopBannerHeader = styled.span`
+// width: 90%;
+// line-height: normal;
+// font-size: ${SIZING.px24};
+// letter-spacing: -0.05rem;
+// color: ${COLORS.StandardWhiteDefault};
+// font-family: "Uncut Sans Semibold";
+// overflow-x: scroll;
+// -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
+// mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
+// `
+// export const ModalInputLabel = styled.label`
+// font-size: ${SIZING.px14};
+// letter-spacing: -0.0175rem;
+// color: ${COLORS.Black500};
+// font-family: "Uncut Sans Medium";
+// `
+// export const ModalTotalAmountSpan = styled.span`
+// font-size: ${SIZING.px16};
+// letter-spacing: -0.03rem;
+// color: ${COLORS.Black500};
+// font-family: "Uncut Sans Medium";
+// `
+// export const ModalTotalAmountNumber = styled.span`
+// font-size: ${SIZING.px16};
+// color: ${COLORS.Black100};
+// font-family: "Uncut Sans Medium";
+// `
+// export const ModalTotalAvalancheSpan = styled.span`
+// font-size: ${SIZING.px16};
+// letter-spacing: -0.03rem;
+// color: ${COLORS.Black600};
+// font-family: "Uncut Sans Medium";
+// `
+// export const ModalTotalAvalancheNumber = styled.span`
+// font-size: ${SIZING.px16};
+// color: ${COLORS.Black300};
+// font-family: "Uncut Sans Medium";
+// `
+// export const BotCreationWorkspaceSuccessSpan = styled.span`
+// font-size: ${SIZING.px24};
+// color: ${COLORS.Black100};
+// font-family: "Uncut Sans Medium";
+// `
+// export const ModalSuccessSpan = styled.span`
+// text-align: center;
+// font-size: ${SIZING.px24};
+// color: ${COLORS.Black100};
+// font-family: "Uncut Sans Medium";
+// `
