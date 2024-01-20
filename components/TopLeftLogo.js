@@ -11,7 +11,7 @@ const TopLeftLogo = () => {
     <Container>
         <Image src={Logo} alt="Traderoid.io"/>
         <LogoText>
-          Engineerians
+          Tradier
         </LogoText>
         
 
