@@ -5,8 +5,8 @@ export const SIZING = {
     px8: "0.5rem",
     px10: "0.625rem",
     px12: "0.75rem",
-    px16: "1rem",
     px14: "0.875rem",
+    px16: "1rem",
     px20: "1.25rem",
     px24: "1.5rem",
     px32: "2rem",
@@ -23,4 +23,4 @@ export const SIZING = {
     px416: "26rem",
     px480: "30rem",
     px640: "40rem"
-}
+    }
