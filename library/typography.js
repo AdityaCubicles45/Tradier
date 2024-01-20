@@ -189,53 +189,53 @@ letter-spacing: -0.015rem;
 color: ${COLORS.Black100};
 font-family: "Uncut Sans Medium";
 `
-// export const ModalTopBannerHeader = styled.span`
-// width: 90%;
-// line-height: normal;
-// font-size: ${SIZING.px24};
-// letter-spacing: -0.05rem;
-// color: ${COLORS.StandardWhiteDefault};
-// font-family: "Uncut Sans Semibold";
-// overflow-x: scroll;
-// -webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
-// mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
-// `
-// export const ModalInputLabel = styled.label`
-// font-size: ${SIZING.px14};
-// letter-spacing: -0.0175rem;
-// color: ${COLORS.Black500};
-// font-family: "Uncut Sans Medium";
-// `
-// export const ModalTotalAmountSpan = styled.span`
-// font-size: ${SIZING.px16};
-// letter-spacing: -0.03rem;
-// color: ${COLORS.Black500};
-// font-family: "Uncut Sans Medium";
-// `
-// export const ModalTotalAmountNumber = styled.span`
-// font-size: ${SIZING.px16};
-// color: ${COLORS.Black100};
-// font-family: "Uncut Sans Medium";
-// `
-// export const ModalTotalAvalancheSpan = styled.span`
-// font-size: ${SIZING.px16};
-// letter-spacing: -0.03rem;
-// color: ${COLORS.Black600};
-// font-family: "Uncut Sans Medium";
-// `
-// export const ModalTotalAvalancheNumber = styled.span`
-// font-size: ${SIZING.px16};
-// color: ${COLORS.Black300};
-// font-family: "Uncut Sans Medium";
-// `
-// export const BotCreationWorkspaceSuccessSpan = styled.span`
-// font-size: ${SIZING.px24};
-// color: ${COLORS.Black100};
-// font-family: "Uncut Sans Medium";
-// `
-// export const ModalSuccessSpan = styled.span`
-// text-align: center;
-// font-size: ${SIZING.px24};
-// color: ${COLORS.Black100};
-// font-family: "Uncut Sans Medium";
-// `
+export const ModalTopBannerHeader = styled.span`
+width: 90%;
+line-height: normal;
+font-size: ${SIZING.px24};
+letter-spacing: -0.05rem;
+color: ${COLORS.StandardWhiteDefault};
+font-family: "Uncut Sans Semibold";
+overflow-x: scroll;
+-webkit-mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
+mask-image: linear-gradient(to right, rgba(0, 0, 0, 1) 95%, rgba(0, 0, 0, 0) 100%);
+`
+export const ModalInputLabel = styled.label`
+font-size: ${SIZING.px14};
+letter-spacing: -0.0175rem;
+color: ${COLORS.Black500};
+font-family: "Uncut Sans Medium";
+`
+export const ModalTotalAmountSpan = styled.span`
+font-size: ${SIZING.px16};
+letter-spacing: -0.03rem;
+color: ${COLORS.Black500};
+font-family: "Uncut Sans Medium";
+`
+export const ModalTotalAmountNumber = styled.span`
+font-size: ${SIZING.px16};
+color: ${COLORS.Black100};
+font-family: "Uncut Sans Medium";
+`
+export const ModalTotalAvalancheSpan = styled.span`
+font-size: ${SIZING.px16};
+letter-spacing: -0.03rem;
+color: ${COLORS.Black600};
+font-family: "Uncut Sans Medium";
+`
+export const ModalTotalAvalancheNumber = styled.span`
+font-size: ${SIZING.px16};
+color: ${COLORS.Black300};
+font-family: "Uncut Sans Medium";
+`
+export const BotCreationWorkspaceSuccessSpan = styled.span`
+font-size: ${SIZING.px24};
+color: ${COLORS.Black100};
+font-family: "Uncut Sans Medium";
+`
+export const ModalSuccessSpan = styled.span`
+text-align: center;
+font-size: ${SIZING.px24};
+color: ${COLORS.Black100};
+font-family: "Uncut Sans Medium";
+`
