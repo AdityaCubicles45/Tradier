@@ -17,7 +17,6 @@ const LeftBar = ({selected}) => {
 
     function goToMarketPlace() {
         router.push("/marketplace")
-        
     }
 
     function goToMyPortfolio() {
@@ -76,12 +75,12 @@ const LeftBar = ({selected}) => {
                         <AskDroidviserIcon 
                         selected={selected === 'askDroidviser'}
                         />
-                        Ask Droidviser
+                        Ask Tradeier
                     </MenuItemAsk>
                 </Nav>
 
                 <LeftBarTrademarkText>
-                    Powered by Avalanche and Chainlink <br />
+                    Powered by Polygon and Chainlink <br />
                     <AccessDocs onClick={() => window.open('/documentation', '_blank')}>
                         Click here to access our Documentation. ⇗
                     </AccessDocs>
