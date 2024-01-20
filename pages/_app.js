@@ -60,7 +60,7 @@ import { ThirdwebProvider, metamaskWallet,
       return (
       <>    
         <Head>
-          <title>Traderoid</title>
+          <title>Engineerians</title>
           <link rel="icon" href="/favicon.ico" />
           <meta name="description" content="Transparent, decentralized trading bot NFT marketplace!" />
           <meta name="viewport" content="width=device-width, initial-scale=1" />

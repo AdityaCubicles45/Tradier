@@ -138,7 +138,7 @@ const BotCreationWorkspace = () => {
         <LoadingContainer>
 
             <LoadingSpan>
-                Minting your Traderoid...
+                Minting your Tradier...
             </LoadingSpan>
 
             <CreatingBotLoader />
